@@ -1,5 +1,5 @@
 const info = {
-  name: "Your Name",
+  name: "Shun Sasaki",
   game: "Battery Charger Game",
   description: "Charge the battery to 100% to win!",
 };
@@ -13,7 +13,6 @@ document.getElementById("profile").innerHTML = `
 $(document).ready(function () {
   let battery = 0;
 
-  // PUSHボタンが押されたとき
   $('#pushBtn').on('click', function () {
     if (battery < 100) {
       battery += 20;
